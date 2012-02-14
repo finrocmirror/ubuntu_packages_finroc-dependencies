@@ -1,0 +1,12 @@
+Source: finroc-dependencies
+Priority: extra
+Maintainer: Tobias Föhst <foehst@informatik.uni-kl.de>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Section: libs
+
+Package: finroc-dependencies
+Section: libs
+Architecture: any
+Depends: libterm-readkey-perl, libtime-modules-perl, libxml-simple-perl
+Description: Packages needed to work with Finroc
