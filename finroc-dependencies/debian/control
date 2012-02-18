@@ -8,5 +8,5 @@ Section: libs
 Package: finroc-dependencies
 Section: libs
 Architecture: any
-Depends: libterm-readkey-perl, libtime-modules-perl, libxml-simple-perl
+Depends: astyle, libterm-readkey-perl, libtime-modules-perl, libui-dialog-perl, libxml-simple-perl
 Description: Packages needed to work with Finroc
