@@ -1,3 +1,9 @@
+finroc-dependencies (1.2) unstable; urgency=low
+
+  * Added java-dependcies for GUI etc
+
+ -- Tobias Föhst <foehst@informatik.uni-kl.de>  Mon, 23 Apr 2012 11:22:56 +0200
+
 finroc-dependencies (1.1) unstable; urgency=low
 
   * Added astyle and libui-dialog-perl
