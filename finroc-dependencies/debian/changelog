@@ -1,3 +1,10 @@
+finroc-dependencies (1.4) unstable; urgency=low
+
+  * Added ant, curl, dialog, doxygen, g++, mercurial, openjdk-7-jdk, pkg-config, pmake und uuid-dev
+  * Added finroc-hostfingerprints.rc for mercurial
+
+ -- Tobias Föhst <foehst@informatik.uni-kl.de>  Thu, 02 May 2013 15:27:53 +0200
+
 finroc-dependencies (1.3) unstable; urgency=low
 
   * Fixed architecture specification
