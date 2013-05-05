@@ -1,3 +1,9 @@
+finroc-dependencies (1.5) unstable; urgency=low
+
+  * Added graphviz
+
+ -- Tobias Föhst <foehst@informatik.uni-kl.de>  Sun, 05 May 2013 14:15:58 +0200
+
 finroc-dependencies (1.4) unstable; urgency=low
 
   * Added ant, curl, dialog, doxygen, g++, mercurial, openjdk-7-jdk, pkg-config, pmake und uuid-dev
