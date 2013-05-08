@@ -1,3 +1,9 @@
+finroc-dependencies (1.6) unstable; urgency=low
+
+  * Added lsb-release and make
+
+ -- Tobias Föhst <foehst@informatik.uni-kl.de>  Wed, 08 May 2013 18:25:49 +0200
+
 finroc-dependencies (1.5) unstable; urgency=low
 
   * Added graphviz
