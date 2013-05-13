@@ -1,3 +1,9 @@
+finroc-dependencies (1.7) unstable; urgency=low
+
+  * Replaced openjdk-7-jdk by openjdk-6-jdk
+
+ -- Tobias Föhst <foehst@informatik.uni-kl.de>  Mon, 13 May 2013 10:49:20 +0200
+
 finroc-dependencies (1.6) unstable; urgency=low
 
   * Added lsb-release and make
