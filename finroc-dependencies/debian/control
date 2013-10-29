@@ -8,5 +8,5 @@ Section: libs
 Package: finroc-dependencies
 Section: libs
 Architecture: all
-Depends: ant, astyle, bsh, curl, dialog, doxygen (<= 1.7.6.1-2ubuntu1), g++, graphviz, libboost-all-dev, libcppunit-dev, libfontchooser-java, libganymed-ssh2-java, libsvgsalamander-java, libterm-readkey-perl, libtime-modules-perl, libui-dialog-perl, libxml2-dev, libxml-simple-perl, libxstream-java, libxpp3-java, lsb-release, make, mercurial, openjdk-6-jdk, pkg-config, pmake, uuid-dev
+Depends: ant, astyle, bsh, curl, dialog, doxygen (<= 1.7.6.1-2ubuntu1), g++, graphviz, libboost-all-dev, libcppunit-dev, libfontchooser-java, libganymed-ssh2-java, libsvgsalamander-java, libterm-readkey-perl, libui-dialog-perl, libxml2-dev, libxml-simple-perl, libxstream-java, libxpp3-java, lsb-release, make, mercurial, openjdk-6-jdk, pkg-config, pmake, uuid-dev
 Description: Packages needed to work with Finroc

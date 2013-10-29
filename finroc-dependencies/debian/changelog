@@ -1,3 +1,9 @@
+finroc-dependencies (1.8) unstable; urgency=low
+
+  * Removed outdated dependency to libtime-modules-perl
+
+ -- Tobias Föhst <foehst@informatik.uni-kl.de>  Fri, 25 Oct 2013 12:16:54 +0200
+
 finroc-dependencies (1.7) unstable; urgency=low
 
   * Replaced openjdk-7-jdk by openjdk-6-jdk
