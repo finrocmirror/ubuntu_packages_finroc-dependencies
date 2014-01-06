@@ -1,3 +1,9 @@
+finroc-dependencies (1.11) unstable; urgency=low
+
+  * Renamed install to finroc-dependencies.install
+
+ -- Tobias Föhst <foehst@informatik.uni-kl.de>  Mon, 06 Jan 2014 11:33:07 +0100
+
 finroc-dependencies (1.10) unstable; urgency=low
 
   * Replaced openjdk-6-jdk by default-jdk
