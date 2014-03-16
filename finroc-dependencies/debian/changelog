@@ -1,3 +1,10 @@
+finroc-dependencies (1.12) unstable; urgency=low
+
+  * Removed outdated dependency to lsb_release
+  * Added alternative dependencies to libclang-3.4-dev and clang-3.4 that could replace doxygen or g++
+
+ -- Tobias Föhst <foehst@informatik.uni-kl.de>  Sun, 16 Mar 2014 14:45:49 +0100
+
 finroc-dependencies (1.11) unstable; urgency=low
 
   * Renamed install to finroc-dependencies.install
