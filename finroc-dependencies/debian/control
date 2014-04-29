@@ -8,13 +8,13 @@ Section: libs
 Package: finroc-dependencies
 Section: libs
 Architecture: all
-Depends: finroc-dependencies-newer-doxygen | finroc-dependencies-older-doxygen, ant, astyle (= 2.03-1), bsh, curl, default-jdk, dialog, g++ | clang-3.4, graphviz, libboost-all-dev, libcppunit-dev, libfontchooser-java, libganymed-ssh2-java, libsvgsalamander-java, libswitch-perl, libterm-readkey-perl, libui-dialog-perl, libxml2-dev, libxml-simple-perl, libxstream-java, libxpp3-java, make, mercurial, pkg-config, uuid-dev
+Depends: finroc-dependencies-newer-doxygen | finroc-dependencies-older-doxygen, ant, astyle (= 2.03-1), bsh, curl, default-jdk, dialog, g++ | clang (>= 3.4), graphviz, libboost-all-dev, libcppunit-dev, libfontchooser-java, libganymed-ssh2-java, libsvgsalamander-java, libswitch-perl, libterm-readkey-perl, libui-dialog-perl, libxml2-dev, libxml-simple-perl, libxstream-java, libxpp3-java, make, mercurial, pkg-config, uuid-dev
 Description: Packages needed to work with Finroc
 
 Package: finroc-dependencies-newer-doxygen
 Section: libs
 Architecture: all
-Depends: clang-3.4, doxygen, libclang-3.4-dev, llvm-3.4-dev
+Depends: clang (>= 3.4), doxygen, libclang-dev (>= 3.4), llvm-dev (>= 3.4)
 Description: Satisfies Finroc's dependencies using llvm clang++ for the enum_strings_builder
 
 Package: finroc-dependencies-older-doxygen

@@ -1,3 +1,9 @@
+finroc-dependencies (1.15) unstable; urgency=low
+
+  * Replaced versioned clang packages by their meta package
+
+ -- Tobias Föhst <foehst@informatik.uni-kl.de>  Tue, 29 Apr 2014 14:48:00 +0200
+
 finroc-dependencies (1.14) unstable; urgency=low
 
   * Improved alternative dependencies to clang or older doxygen by adding two meta packages
