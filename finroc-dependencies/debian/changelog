@@ -1,3 +1,10 @@
+finroc-dependencies (1.17) unstable; urgency=medium
+
+  * Updated dependencies
+  * Removed packages for newer and older doxygen versions as clang comes in a suitable version since ubuntu 14.04 and doxgen is not needed for string-generation
+
+ -- Tobias Föhst <foehst@finroc.org>  Thu, 28 May 2015 16:04:49 +0200
+
 finroc-dependencies (1.16) unstable; urgency=low
 
   * Fixed clang version constraints

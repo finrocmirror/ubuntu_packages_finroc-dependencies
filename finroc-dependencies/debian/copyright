@@ -2,7 +2,7 @@ Format: http://dep.debian.net/deps/dep5
 Upstream-Name: finroc-dependencies
 
 Files: *
-Copyright: 2012 Tobias Föhst <foehst@informatik.uni-kl.de>
+Copyright: 2012 Tobias Föhst <foehst@finroc.org>
 License: GPL-3.0+
 
 License: GPL-3.0+

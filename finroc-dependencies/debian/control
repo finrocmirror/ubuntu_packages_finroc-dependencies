@@ -1,6 +1,6 @@
 Source: finroc-dependencies
 Priority: extra
-Maintainer: Tobias Föhst <foehst@informatik.uni-kl.de>
+Maintainer: Tobias Föhst <foehst@finroc.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.1
 Section: libs
@@ -8,17 +8,8 @@ Section: libs
 Package: finroc-dependencies
 Section: libs
 Architecture: all
-Depends: finroc-dependencies-newer-doxygen | finroc-dependencies-older-doxygen, ant, astyle (= 2.03-1), bsh, curl, default-jdk, dialog, g++ | clang (>= 1:3.4), graphviz, libboost-all-dev, libcppunit-dev, libfontchooser-java, libganymed-ssh2-java, libsvgsalamander-java, libswitch-perl, libterm-readkey-perl, libui-dialog-perl, libxml2-dev, libxml-simple-perl, libxstream-java, libxpp3-java, make, mercurial, pkg-config, uuid-dev
+Replaces: finroc-dependencies-newer-doxygen, finroc-dependencies-older-doxygen
+Conflicts: finroc-dependencies-newer-doxygen, finroc-dependencies-older-doxygen
+Depends: ant, astyle (= 2.03-1), clang (>= 1:3.4), curl, default-jdk, dialog, g++, graphviz, libfontchooser-java, libboost-system-dev, libboost-filesystem-dev, libboost-thread-dev, libboost-iostreams-dev, libclang-dev, libcppunit-dev, libitext5-java, libsvgsalamander-java, libswitch-perl, libterm-readkey-perl, libui-dialog-perl, libxml-simple-perl, libxml2-dev, libxpp3-java, libxstream-java, llvm-dev, make, mercurial, pkg-config,
+Suggests: doxygen, libespeak-dev, libfestival-dev, libopencv-dev
 Description: Packages needed to work with Finroc
-
-Package: finroc-dependencies-newer-doxygen
-Section: libs
-Architecture: all
-Depends: clang (>= 1:3.4) | clang-3.4, doxygen, libclang-dev (>= 1:3.4) | libclang-3.4-dev, llvm-dev (>= 1:3.4) | llvm-3.4-dev
-Description: Satisfies Finroc's dependencies using llvm clang++ for the enum_strings_builder
-
-Package: finroc-dependencies-older-doxygen
-Section: libs
-Architecture: all
-Depends: doxygen (<= 1.7.6.1-2ubuntu1)
-Description: Satisfies Finroc's dependencies using an older version of doxygen for the enum_strings_builder
