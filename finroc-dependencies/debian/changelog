@@ -1,3 +1,9 @@
+finroc-dependencies (1.18) unstable; urgency=medium
+
+  * Updated host fingerprint for finroc.org
+
+ -- Tobias Föhst <foehst@finroc.org>  Sun, 19 Jul 2015 01:36:51 +0200
+
 finroc-dependencies (1.17) unstable; urgency=medium
 
   * Updated dependencies
