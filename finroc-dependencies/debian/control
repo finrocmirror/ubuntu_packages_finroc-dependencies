@@ -10,6 +10,6 @@ Section: libs
 Architecture: all
 Replaces: finroc-dependencies-newer-doxygen, finroc-dependencies-older-doxygen
 Conflicts: finroc-dependencies-newer-doxygen, finroc-dependencies-older-doxygen
-Depends: ant, astyle (= 2.03-1), clang (>= 1:3.4), curl, default-jdk, dialog, g++, graphviz, libfontchooser-java, libboost-system-dev, libboost-filesystem-dev, libboost-thread-dev, libboost-iostreams-dev, libclang-dev, libcppunit-dev, libitext5-java, libsvgsalamander-java, libswitch-perl, libterm-readkey-perl, libui-dialog-perl, libxml-simple-perl, libxml2-dev, libxpp3-java, libxstream-java, llvm-dev, make, mercurial, pkg-config,
+Depends: ant, astyle (= 2.03-1), clang (>= 1:3.4), curl, java6-sdk, dialog, g++, graphviz, libfontchooser-java, libboost-system-dev, libboost-filesystem-dev, libboost-thread-dev, libboost-iostreams-dev, libclang-dev, libcppunit-dev, libitext5-java, libsvgsalamander-java, libswitch-perl, libterm-readkey-perl, libui-dialog-perl, libxml-simple-perl, libxml2-dev, libxpp3-java, libxstream-java, llvm-dev, make, mercurial, pkg-config,
 Suggests: doxygen, libespeak-dev, libfestival-dev, libopencv-dev
 Description: Packages needed to work with Finroc

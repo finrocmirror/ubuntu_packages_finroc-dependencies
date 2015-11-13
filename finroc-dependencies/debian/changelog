@@ -1,3 +1,9 @@
+finroc-dependencies (1.19) unstable; urgency=medium
+
+  * Replaced dependency to default-jdk by java6-sdk to avoid broken openjdk-7 on 14.04
+
+ -- Tobias Föhst <foehst@finroc.org>  Fri, 13 Nov 2015 09:39:12 +0100
+
 finroc-dependencies (1.18) unstable; urgency=medium
 
   * Updated host fingerprint for finroc.org
